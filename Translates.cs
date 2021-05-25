@@ -276,9 +276,9 @@ namespace DiscordRPforVS
         /// <returns>Idling in the desired language</returns>
         public static string Idling(string translate)
         {
-            if (translate == "en-US") { return "Editing"; }
+            if (translate == "en-US") { return "Developing"; }
             if (translate == "ru-RU") { return "Выбирает проект"; }
-            else { return "Editing"; }
+            else { return "Developing"; }
         }
 
         /// <summary>
@@ -290,7 +290,7 @@ namespace DiscordRPforVS
         {
             if (translate == "en-US") { return "Developing"; }
             if (translate == "ru-RU") { return "Работает в проекте"; }
-            else { return "Idling"; }
+            else { return "Developing"; }
         }
 
         /// <summary>
